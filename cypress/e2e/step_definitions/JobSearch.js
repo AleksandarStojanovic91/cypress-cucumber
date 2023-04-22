@@ -1,5 +1,5 @@
 import { Given, When, Then } from "cypress-cucumber-preprocessor/steps"
-const HomeGooglePage = require('../../pages/googlePage')
+const HomeGooglePage = require('../../pages/HomePage')
 
 Given("you navigate to {string}", (url) => {
     cy.visit(url)
